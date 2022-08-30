@@ -1,6 +1,9 @@
 import './App.css';
-import ClickCounter from './componants/HigherOrderComponents/ClickCounter';
-import HoverCounter from './componants/HigherOrderComponents/HoverCounter';
+import ParentComponent from './componants/PureComponants/ParentComponent';
+import PureComponentDemo from './componants/PureComponants/PureComponent';
+import RefsDemo from './componants/Refs/RefsDemo';
+// import ClickCounter from './componants/HigherOrderComponents/ClickCounter';
+// import HoverCounter from './componants/HigherOrderComponents/HoverCounter';
 
 // import Helloworld from './componants/Helloworld'
 // import Displaytext from './componants/Displaytext'
@@ -88,8 +91,11 @@ function App() {
       {/* <FragementsDemo/> */}
       {/* <Tables/> */}
 
-      <ClickCounter/>
-      <HoverCounter/>
+      {/* <ClickCounter/>
+      <HoverCounter/> */}
+      {/* <PureComponentDemo/> 
+      <ParentComponent/>*/}
+      <RefsDemo/>
     </div>
   );
 }
